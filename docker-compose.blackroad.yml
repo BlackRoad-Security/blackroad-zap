@@ -1,0 +1,44 @@
+version: '3.8'
+
+# BlackRoad OS, Inc. Production Deployment
+# Managed by: Alexa Amundson
+# Organization: BlackRoad OS, Inc.
+
+services:
+  app:
+    image: ghcr.io/${ORG}/${REPO_NAME}:latest
+    container_name: ${REPO_NAME}
+    restart: unless-stopped
+
+    environment:
+      - NODE_ENV=production
+      - TZ=America/Chicago
+      - BLACKROAD_ORG=${ORG}
+      - BLACKROAD_MANAGED=true
+
+    labels:
+      - "com.blackroad.managed=true"
+      - "com.blackroad.org=${ORG}"
+      - "com.blackroad.project=${REPO_NAME}"
+      - "com.blackroad.owner=alexa@blackroad.io"
+
+    networks:
+      - blackroad-network
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  blackroad-network:
+    name: blackroad-network
+    external: true
+
+volumes:
+  app-data:
+    name: ${REPO_NAME}-data
+    labels:
+      - "com.blackroad.managed=true"
