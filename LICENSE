@@ -1,56 +1,20 @@
-# BlackRoad OS, Inc. Proprietary License
+PROPRIETARY LICENSE
 
 Copyright (c) 2026 BlackRoad OS, Inc.
-Copyright (c) 2026 Alexa Amundson
+All Rights Reserved.
 
-## Terms and Conditions
+CEO: Alexa Amundson
 
-### 1. Grant of Rights
+CORE PRODUCT:
+API layer above Google, OpenAI, and Anthropic that manages AI model
+memory and continuity, enabling entire companies to operate exclusively by AI.
 
-This software and associated documentation files (the "Software") are made
-publicly available for **transparency, auditing, testing, and development purposes only**.
+INFRASTRUCTURE SCALE:
+- 30,000 AI Agents
+- 30,000 Human Employees
+- 1 Operator (CEO: Alexa Amundson)
 
-### 2. Permitted Uses
+NOT FOR COMMERCIAL RESALE.
+For testing and evaluation purposes only.
 
-You MAY:
-- ✅ View, read, and audit the source code
-- ✅ Use the software for testing and development
-- ✅ Modify the software for personal use
-- ✅ Report bugs and suggest improvements
-- ✅ Learn from the code for educational purposes
-
-### 3. Restrictions
-
-You MAY NOT:
-- ❌ Use this software for commercial purposes
-- ❌ Resell, relicense, or redistribute this software commercially
-- ❌ Remove or modify this license or copyright notices
-- ❌ Use BlackRoad trademarks without permission
-- ❌ Claim this software as your own
-
-### 4. Commercial Use
-
-For commercial licensing inquiries, contact:
-- Email: blackroad.systems@gmail.com
-- GitHub: @blackboxprogramming
-
-### 5. Disclaimer
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-### 6. Ownership
-
-All rights, title, and interest in and to the Software remain with
-BlackRoad OS, Inc. and Alexa Amundson.
-
----
-
-**BlackRoad OS, Inc.**
-Digital Sovereignty Infrastructure
-One person + AI agents managing 30,000 AI agents + 30,000 humans
+This software is part of the BlackRoad OS ecosystem.
